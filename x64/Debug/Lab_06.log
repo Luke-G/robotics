@@ -1,8 +1,3 @@
-﻿  wanderAndAvoid.cpp
-  obstacleDetection.cpp
-  edgeFollowing.cpp
-  Generating Code...
-  Compiling...
-  main.cpp
-  Generating Code...
-  Lab_06.vcxproj -> C:\Users\Luke\Downloads\Lab_06\x64\Debug\Lab_06.exe
+﻿  main.cpp
+  Lab_06.vcxproj -> C:\projectfly\robotics\x64\Debug\Lab_06.exe
+  Lab_06.vcxproj -> C:\projectfly\robotics\x64\Debug\Lab_06.pdb (Partial PDB)

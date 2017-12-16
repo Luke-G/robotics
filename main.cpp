@@ -1,5 +1,6 @@
 #include "Aria.h"
-#include "wanderAndAvoid.h"
+#include "wander.h"
+#include "avoid.h"
 
 int main(int argc, char **argv)
 {
@@ -58,10 +59,13 @@ int main(int argc, char **argv)
   // add a set of actions that combine together to effect the wander behavior
   ArActionStallRecover recover;
   ArActionBumpers bumpers;
-  FSM wanderAndAvoid; 
+  
+  FSM wander; 
+
+
   robot.addAction(&recover, 100);
   robot.addAction(&bumpers, 75);
-  robot.addAction(&wanderAndAvoid, 50);
+  robot.addAction(&wander, 50);
   
   // wait for robot task loop to end before exiting the program
   robot.waitForRunExit();

@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="wanderAndAvoid.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="edgeFollowing.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="obstacleDetection.h">
+    <ClInclude Include="wander.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,13 +23,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wanderAndAvoid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="edgeFollowing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="obstacleDetection.cpp">
+    <ClCompile Include="wander.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
